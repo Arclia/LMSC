@@ -36,6 +36,8 @@ collections:
     output: true
   techs:
     output: true
+  languages:
+    output: true
 
 
 defaults:
@@ -50,6 +52,12 @@ defaults:
       type: concepts
     values:
       layout: concept
+
+  - scope:
+      page: ""
+      type: languages
+    values:
+      layout: language
 
 
 # Exclude from processing.
