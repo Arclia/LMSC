@@ -1,0 +1,12 @@
+
+{% if page.related.techs %}
+  {% assign related_techs = site.techs | where_exp: "t","page.related.techs contains t.slug" %}
+
+  <h3>Related Techs</h3>
+
+  <ul>
+    {% for t in related_techs %}
+      <li><a href="{{t.url}}">{{t.title}}</a>
+    {% endfor %}
+  </ul>
+{% endif %}

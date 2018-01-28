@@ -7,8 +7,17 @@ layout: page
     <dt>Homepage:</dt>
     <dd><a href="{{ page.homepage }}">{{ page.homepage }}</a></dd>
   {% endif %}
+
+  {% if page.tldr %}
+    <dt>tl;dr;</dt>
+    <dd>{{ page.tldr }}</dd>
+  {% endif %}
 </dl>
 
 <div>
   {{ content }}
 </div>
+
+
+{% include related_concepts.html %}
+{% include related_techs.html %}

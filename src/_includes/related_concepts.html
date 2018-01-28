@@ -1,0 +1,13 @@
+
+{% if page.related.concepts %}
+  {% assign related_concepts = site.concepts | where_exp: "c","page.related.concepts contains c.slug" %}
+
+  <h3>Related Concepts</h3>
+
+  <ul>
+    {% for c in related_concepts %}
+      <li><a href="{{c.url}}">{{c.title}}</a></li>
+    {% endfor %}
+  </ul>
+
+{% endif %}

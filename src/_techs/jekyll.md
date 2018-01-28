@@ -3,6 +3,7 @@ title: Jekyll
 slug: jekyll
 
 homepage: https://jekyllrb.com/
+tldr: A tool for generating static web sites
 ---
 
 ## Resources ##
