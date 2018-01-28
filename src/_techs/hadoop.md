@@ -3,6 +3,10 @@ title: Hadoop
 
 homepage: http://hadoop.apache.org/
 tldr: An ecosystem for Big Data
+
+related:
+  concepts:
+    - big_data
 ---
 
 If you're new to Hadoop, then you probably think that it's just some kind of database application that you can install and run.
