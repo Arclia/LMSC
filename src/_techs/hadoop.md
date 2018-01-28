@@ -1,6 +1,6 @@
 ---
 title: Hadoop
-layout: page
+homepage: http://hadoop.apache.org/
 ---
 
 If you're new to Hadoop, then you probably think that it's just some kind of database application that you can install and run.

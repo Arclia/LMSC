@@ -1,0 +1,14 @@
+---
+layout: page
+---
+
+<dl>
+  {% if page.homepage %}
+    <dt>Homepage:</dt>
+    <dd><a href="{{ page.homepage }}">{{ page.homepage }}</a></dd>
+  {% endif %}
+</dl>
+
+<div>
+  {{ content }}
+</div>
