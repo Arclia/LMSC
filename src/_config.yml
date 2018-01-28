@@ -29,6 +29,8 @@ theme: jekyll-theme-hydeout
 plugins:
   - jekyll-feed
 
+include:
+  - _pages
 
 paginate: 5
 
