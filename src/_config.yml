@@ -34,6 +34,8 @@ paginate: 5
 collections:
   concepts:
     output: true
+  techs:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
