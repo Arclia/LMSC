@@ -29,9 +29,6 @@ theme: jekyll-theme-hydeout
 plugins:
   - jekyll-feed
 
-include:
-  - _pages
-
 paginate: 5
 
 # Exclude from processing.
