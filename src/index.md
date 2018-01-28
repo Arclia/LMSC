@@ -4,6 +4,13 @@ layout: page
 ---
 
 
+## Concepts ##
+
+{% for c in site.concepts %}
+* [{{ c.title }}]({{c.url}})
+{% endfor %}
+
+
 ## Techs ##
 
 * [Jekyll](/techs/jekyll)
