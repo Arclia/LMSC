@@ -38,13 +38,18 @@ collections:
     output: true
 
 
-
 defaults:
   - scope:
       page: ""
       type: techs
     values:
       layout: tech
+
+  - scope:
+      page: ""
+      type: concepts
+    values:
+      layout: concept
 
 
 # Exclude from processing.

@@ -1,6 +1,7 @@
 ---
 title: Virtualization
-layout: page
+
+related:
+  concepts:
+    - containerization
 ---
-
-

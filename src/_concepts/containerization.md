@@ -1,5 +1,9 @@
 ---
 title: Containerization
-layout: page
----
 
+related:
+  concepts:
+    - virtualization
+  techs:
+    - docker
+---

@@ -1,5 +1,6 @@
 ---
 title: Hadoop
+slug: hadoop
 homepage: http://hadoop.apache.org/
 ---
 

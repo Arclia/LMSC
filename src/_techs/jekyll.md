@@ -1,5 +1,7 @@
 ---
 title: Jekyll
+slug: jekyll
+
 homepage: https://jekyllrb.com/
 ---
 
