@@ -1,0 +1,13 @@
+
+{% if page.related.applications %}
+  {% assign related_applications = site.applications | where_exp: "c","page.related.applications contains c.slug" %}
+
+  <h3>Related Applications</h3>
+
+  <ul>
+    {% for a in related_applications %}
+      <li><a href="{{a.url}}">{{a.title}}</a></li>
+    {% endfor %}
+  </ul>
+
+{% endif %}

@@ -1,0 +1,13 @@
+
+{% if page.related.languages %}
+  {% assign related_languages = site.languages | where_exp: "c","page.related.languages contains c.slug" %}
+
+  <h3>Related Languages</h3>
+
+  <ul>
+    {% for a in related_languages %}
+      <li><a href="{{a.url}}">{{a.title}}</a></li>
+    {% endfor %}
+  </ul>
+
+{% endif %}
