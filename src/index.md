@@ -3,6 +3,4 @@ title: Learn Me Some Codes!
 layout: page
 ---
 
-
-* [Concepts](/concepts)
-* [Techs](/techs)
+Try one of the links on the sidebar to get started.
