@@ -32,20 +32,23 @@ plugins:
 paginate: 5
 
 collections:
-  concepts:
+  applications:
     output: true
-  techs:
+  concepts:
     output: true
   languages:
     output: true
+  techs:
+    output: true
+
 
 
 defaults:
   - scope:
       page: ""
-      type: techs
+      type: applications
     values:
-      layout: tech
+      layout: application
 
   - scope:
       page: ""
@@ -58,6 +61,12 @@ defaults:
       type: languages
     values:
       layout: language
+
+  - scope:
+      page: ""
+      type: techs
+    values:
+      layout: tech
 
 
 # Exclude from processing.
